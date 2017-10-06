@@ -1,5 +1,5 @@
 {
-    "name": "brown298/data-tables-bundle",
+    "name": "irvint/data-tables-bundle",
     "type": "symfony-bundle",
     "homepage": "http://code.rbsolutions.us/datatables/",
     "description": "Adds DataTables functionality to Symfony2",
@@ -13,10 +13,10 @@
     ],
     "autoload": {
         "psr-0": {
-            "Brown298\\DataTablesBundle\\": ""
+            "irvint\\DataTablesBundle\\": ""
         }
     },
-    "target-dir": "Brown298/DataTablesBundle",
+    "target-dir": "irvint/DataTablesBundle",
     "require": {
         "php":                          ">=5.3.3",
         "doctrine/orm":                 "~2.2,>=2.2.3",
