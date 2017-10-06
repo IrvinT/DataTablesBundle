@@ -9,7 +9,7 @@ use \Brown298\DataTablesBundle\Model\DataTable\DataTableInterface;
  * @package Brown298\DataTablesBundle\Twig
  * @author John Brown <brown.john@gmail.com>
  */
-class DataTables extends \Twig_Extension
+class DataTables extends \Twig_Extension implements \Twig_Extension_InitRuntimeInterface
 {
     /**
      * @var
